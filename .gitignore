@@ -1,0 +1,16 @@
+# Notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Notion or Trello exports
+*.csv
+*.json
