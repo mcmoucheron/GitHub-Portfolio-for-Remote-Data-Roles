@@ -6,7 +6,7 @@ Hi, I’m Colette—an environmental engineer transitioning into data analytics,
 This repository currently includes foundational materials, including early Colab notebooks and setup files. New data analysis projects will be added soon, with more emphasis on applied techniques and visualization.
 
 ## 📂 Completed Projects
-### Análisis de Calidad del Aire en Santiago (2018-2024)
+### Air quality analysis in Santiago (2018-2024) / Análisis de calidad del aire en Santiago (2018-2024)
 
 A deep dive into the air quality of Santiago, Chile, using Python, SQL, and a statistical regression model to analyze environmental inequality and the true impact of the COVID-19 pandemic while controlling for meteorological factors. This project includes a full ETL pipeline, data validation based on Chilean environmental law, and a final report with visualizations.
 
