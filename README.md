@@ -17,8 +17,29 @@ A deep dive into the air quality of Santiago, Chile, using Python, SQL, and a st
 - SQL Case Studies — Exploratory data queries with optimization
 - Tableau Dashboards — Interactive stories with real-world datasets
 
+---
+
 ## 🛠️ Skills & Tools
-Python · SQL · Tableau · Notion · Trello · GitHub · Markdown · Bilingual (English/Spanish)
+
+### Programming & Databases
+*   **Python:** Pandas, SQLAlchemy, Matplotlib, Seaborn, Statsmodels
+*   **SQL:** PostgreSQL
+
+### Data Analysis & Visualization
+*   ETL Pipeline Development
+*   Data Cleaning & Validation
+*   Exploratory Data Analysis (EDA)
+*   Statistical Modeling (Linear Regression)
+*   Data Visualization & Business Intelligence (Tableau)
+
+### Tools & Collaboration
+*   **Environments:** Google Colab, Jupyter Notebooks
+*   **Version Control:** Git & GitHub
+*   **Project Management:** Notion, Trello
+*   **Documentation:** Markdown
+
+### Languages
+*   **Bilingual:** English & Spanish (Native/Fluent)
 
 ## 🌱 Portfolio Vision
 This space is designed to grow alongside my transition into data analytics, highlighting clean documentation, scalable workflows, and readiness for remote collaboration.
