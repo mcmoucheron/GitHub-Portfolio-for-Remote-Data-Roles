@@ -35,9 +35,25 @@
 **[ES]** El análisis concluyó que, incluso después de controlar por factores meteorológicos, el periodo de la pandemia (2020-2021) tuvo una reducción estadísticamente significativa en los niveles de PM2.5. Adicionalmente, se cuantificó una severa desigualdad ambiental, con comunas como Pudahuel y Quilicura mostrando niveles de contaminación sistemáticamente más altos que Las Condes.
 
 ---
+
 ### How to Run This Project / Cómo Ejecutar Este Proyecto
 
-1.  Click the "Open in Colab" badge at the top of this README.
-2.  Upload the raw data CSV files to the Colab environment.
-3.  Update the database connection string in the first code block.
-4.  Run the notebook cells in order.
+**[EN]** To reproduce this analysis, please follow these steps:
+
+1.  **Open in Colab:** Click the "Open in Colab" badge at the top of this README to launch the main notebook in Google Colab.
+2.  **Upload the Data Folder:** In the Colab file explorer on the left, you need to recreate the raw data folder structure.
+    *   Click the "Files" icon (folder icon).
+    *   Click the "Upload" button (page icon with an up arrow).
+    *   Select the entire **`datos_SINCA`** folder from your local project to upload it. *Note: You must upload the folder itself, not just the files inside it.*
+3.  **Update Connection String:** In the first code block, replace the placeholder for the `neon_connection_string` with your own PostgreSQL database connection string.
+4.  **Run the Notebook:** Run the notebook cells in order from top to bottom. The first cell will handle the entire ETL process, and the subsequent cells will perform the analysis and generate the visualizations.
+
+**[ES]** Para reproducir este análisis, por favor sigue estos pasos:
+
+1.  **Abrir en Colab:** Haz clic en el ícono "Open in Colab" en la parte superior de este README para abrir el notebook principal en Google Colab.
+2.  **Subir la Carpeta de Datos:** En el explorador de archivos de Colab a la izquierda, necesitas recrear la estructura de la carpeta de datos brutos.
+    *   Haz clic en el ícono de "Archivos" (ícono de carpeta).
+    *   Haz clic en el botón "Subir" (ícono de página con una flecha hacia arriba).
+    *   Selecciona la carpeta completa **`datos_SINCA`** desde tu proyecto local para subirla. *Nota: Debes subir la carpeta misma, no solo los archivos que contiene.*
+3.  **Actualizar la Cadena de Conexión:** En el primer bloque de código, reemplaza el marcador de posición de `neon_connection_string` con tu propia cadena de conexión a la base de datos PostgreSQL.
+4.  **Ejecutar el Notebook:** Ejecuta las celdas del notebook en orden, de arriba hacia abajo. La primera celda se encargará de todo el proceso ETL, y las celdas siguientes realizarán el análisis y generarán las visualizaciones.
